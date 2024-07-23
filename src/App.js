@@ -13,6 +13,7 @@ function App() {
       <Route path="/category/:categoryId" element={<CategoryPage/>} />
       <Route path="/activity/:etkinlikId" element={<ActivityDetail/>} />
     </Routes>
+    <footer style={{textAlign:'center', padding:20, backgroundColor:'black', color:'white'}}>Footer</footer>
   </>
 }
 
