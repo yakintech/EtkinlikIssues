@@ -11,7 +11,7 @@ function App() {
     <Routes>
       <Route path="/" element={<HomePage/>} />
       <Route path="/category/:categoryId" element={<CategoryPage/>} />
-      <Route path="/:etkinlikId" element={<ActivityDetail/>} />
+      <Route path="/activity/:etkinlikId" element={<ActivityDetail/>} />
     </Routes>
   </>
 }
